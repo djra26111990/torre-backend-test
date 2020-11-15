@@ -21,5 +21,5 @@ app.use(API_PATH, bioRouter)
 app.use(API_PATH, coRouter)
 
 app.listen(port, () => {
-  console.log(`Server at http://localhost:${port}`)
+  console.log(`Server at https://torre-backend-test.herokuapp.com:${port}`)
 })
